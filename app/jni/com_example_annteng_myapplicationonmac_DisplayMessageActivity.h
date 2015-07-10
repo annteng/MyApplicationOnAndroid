@@ -13,7 +13,15 @@ extern "C" {
  * Signature: (Ljava/lang/String;)Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_com_example_annteng_myapplicationonmac_DisplayMessageActivity_helloString
-  (JNIEnv *, jobject, jstring, jstring p_outfilename, jstring p_infilename);
+  (JNIEnv *, jobject, jstring);
+
+/*
+ * Class:     com_example_annteng_myapplicationonmac_DisplayMessageActivity
+ * Method:    decodeVideoFF
+ * Signature: (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_com_example_annteng_myapplicationonmac_DisplayMessageActivity_decodeVideoFF
+  (JNIEnv *, jobject, jstring, jstring);
 
 #ifdef __cplusplus
 }

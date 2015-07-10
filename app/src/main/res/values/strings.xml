@@ -9,4 +9,5 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_display_message">My Message</string>
+    <string name="button_decode_video">Decode Video</string>
 </resources>
